@@ -1,0 +1,14 @@
+### getMe
+GET https://api.telegram.org/bot/getMe
+
+### getUpdates
+GET https://api.telegram.org/bot/getUpdates
+
+### send message
+POST https://api.telegram.org/bot/sendmessage
+content-type: application/json
+
+{
+  "chat_id": 717303100,
+  "text": "hello"
+}
