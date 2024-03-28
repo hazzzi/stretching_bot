@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const baseURL = 'https://api.telegram.org/bot';
-const token = '1210540083:AAFXaaI_RHUYUiuRxn2G5DtGCNkGIlZDVZg';
+const token = '';
 
 const server = axios.create({ baseURL: `${baseURL}${token}` });
 
